@@ -1,0 +1,14 @@
+[package]
+name = "whitelist-token-sale"
+version = "0.1.0"
+description = "Whitelist-gated Token Sale Smart Contract"
+edition = "2021"
+
+[workspace]
+members = [
+  "programs/*"
+]
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
